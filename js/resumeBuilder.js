@@ -111,7 +111,7 @@ var projects = {
         title: "Portfolio",
         dates: "16-04-2017",
         description: "Online Portfolio",
-        images: ["images/portfolio-1.png", "images/portfolio-2.png"],
+        images: ["images/portfolio-2.png"],
     }, {
         title: "Classic Arcade Game",
         dates: "06-05-2017",
