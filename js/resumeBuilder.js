@@ -116,15 +116,20 @@ var work = {
 work.display();
 var projects = {
     projects: [{
-        title: "Project 1",
+        title: "Portfolio",
         dates: "16-04-2017",
-        description: "Slack Card",
-        images: ["https://unsplash.it/400/300", "https://unsplash.it/400/300"],
+        description: "Online Portfolio",
+        images: ["images/portfolio-1.png", "images/portfolio-2.png"],
     }, {
-        title: "Project 2",
+        title: "Classic Arcade Game",
         dates: "06-05-2017",
-        description: "Slack Card",
-        images: ["https://unsplash.it/400/300", "https://unsplash.it/400/300"],
+        description: "JavaScript Game",
+        images: ["images/arcade-game.png"],
+    }, {
+        title: "Touressence",
+        dates: "06-12-2016",
+        description: "Travel Website",
+        images: ["images/touressence.png"],
     }],
     display: function() {
         $("#projects").append(HTMLprojectStart);

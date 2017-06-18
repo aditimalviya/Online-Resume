@@ -60,7 +60,10 @@ h5 {
   padding: 10px 5%;
 
 }
-
+img{
+  width: 400px;
+  height: 300px;
+}
 
 .date-text {
   font-style: italic;
