@@ -5,10 +5,8 @@ var bio = {
     name: "Aditi Malviya",
     role: "Frontend Developer",
     contacts: {
-        mobile: "+91-8197431600",
         email: "aditimalviya9@gmail.com",
         github: "https://github.com/aditimalviya/",
-        twitter: "https://twitter.com/MalviyaAditi",
         location: "Bangalore"
     },
     welcomeMessage: "Hello, I am Aditi",
@@ -19,12 +17,8 @@ var bio = {
         $("#header").append(formattedHeaderName);
         var formattedRole = HTMLheaderRole.replace("%data%", bio.role);
         $("#header").append(formattedRole);
-        var formattedMobile = HTMLmobile.replace("%data%", bio.contacts.mobile);
-        $("#topContacts").append(formattedMobile);
         var formattedEmail = HTMLemail.replace("%data%", bio.contacts.email);
         $("#topContacts").append(formattedEmail);
-        var formattedTwitter = HTMLtwitter.replace("%data%", bio.contacts.twitter);
-        $("#topContacts").append(formattedTwitter);
         var formattedGithub = HTMLgithub.replace("%data%", bio.contacts.github);
         $("#topContacts").append(formattedGithub);
         var formattedLocation = HTMLlocation.replace("%data%", bio.contacts.location);
@@ -38,10 +32,8 @@ var bio = {
             var formattedSkills = HTMLskills.replace("%data%", bio.skills[i]);
             $("#skills").append(formattedSkills);
         }
-        $("#footerContacts").append(formattedMobile);
         $("#footerContacts").append(formattedEmail);
         $("#footerContacts").append(formattedGithub);
-        $("#footerContacts").append(formattedTwitter);
         $("#footerContacts").append(formattedLocation);
     }
 };
