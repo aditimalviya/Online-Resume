@@ -122,6 +122,11 @@ var projects = {
         dates: "06-12-2016",
         description: "Travel Website",
         images: ["images/touressence.png"],
+    }, {
+        title: "Neighborhood Map",
+        dates: "26-06-2017",
+        description: "A single-page web application, built using the Knockout framework, that displays a Google Map of an area and various points of interest. Users can search all included landmarks and, when selected, additional information about a landmark is presented from the FourSquare and Wikipedia APIs.",
+        images: ["images/neighborhood-map.png"],
     }],
     display: function() {
         $("#projects").append(HTMLprojectStart);
